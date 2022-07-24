@@ -1,18 +1,17 @@
 import React from 'react';
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram, FaEnvelope} from 'react-icons/fa';
+import {FaGithub, FaLinkedin, FaInstagram, FaEnvelope} from 'react-icons/fa';
 import meImage from '../assets/me.jpg';
 import resume from '../assets/Silvernail_Resume.pdf';
-import {HiArrowNarrowRight} from 'react-icons/hi';
 
 const Home = () => {
 
   return (
-    <div name='home' className='w-full h-screen bg-[#0a192f]'>
+    <div name='home' className='w-full lg:h-screen bg-[#0a192f]'>
         
         {/* container */}
-        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center lg:h-full'>
 
-            <div className='py-10'>
+            <div className='pt-20 lg:py-10'>
                 <img src={meImage} alt='me' className='shadow rounded-full w-60 h-auto align-middle border-none' />
             </div>
             
@@ -42,9 +41,6 @@ const Home = () => {
                 <a href={resume} download>
                     <button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-lime-400 hover:border-lime-400 hover:text-[#0a192f]'>
                         Download Resume 
-                        {/* <span className='hover:rotate-90 duration-300'>
-                            <HiArrowNarrowRight className='ml-3'/>
-                        </span> */}
                     </button>
                 </a>
             </div>
