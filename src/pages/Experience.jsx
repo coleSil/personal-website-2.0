@@ -1,11 +1,11 @@
 import React from 'react';
-import Job from '../components/Job.Jsx';
+import '../styles/Experience.css';
 
 function Experience() {
   return (
-    <div name='experience' className='w-full h-screen bg-emerald-900 text-gray-300'> 
+    <div id='container' name='experience'> 
         {/* <Job company='United Food and Commercial Workers Union (UFCW)' start='test1' end='test2' /> */}
-        
+        <p>test123</p>
     </div>
   )
 }
