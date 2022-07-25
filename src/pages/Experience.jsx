@@ -23,7 +23,7 @@ function Experience() {
   ];
 
   return (
-    <div name='experience' className='w-full bg-[#0a192f] text-[#ccd6f6] pb-32 justify-center lg:h-screen'> 
+    <div name='experience' className='w-full bg-[#0a192f] text-[#ccd6f6] pb-32 justify-center'> 
 
         <div className='flex flex-col px-8 w-full lg:h-full'>
 
