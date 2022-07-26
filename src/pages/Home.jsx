@@ -20,7 +20,7 @@ const Home = () => {
             <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Full Stack Developer.</h2>
             <div className='text-lime-400 py-4 text-2xl sm:text-3xl'>
                 <p className='lg:inline-block lg:pr-5'>Washington, DC</p>
-                <p className='lg:inline-block lg:pr-5'>colesilvernail@gmail</p>
+                <p className='lg:inline-block lg:pr-5'>colesilvernail@gmail.com</p>
                 <p className='lg:inline-block lg:pr-5'>(321) 514-4369</p>
             </div>
 
