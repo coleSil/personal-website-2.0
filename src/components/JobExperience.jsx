@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 function JobHeader(props) {
     var description = props.descriptions?.map(function(d){
@@ -26,7 +25,5 @@ function JobHeader(props) {
     </div>
   )
 }
-
-JobHeader.propTypes = {}
 
 export default JobHeader

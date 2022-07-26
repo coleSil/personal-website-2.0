@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 function Degree(props) {
   return (
@@ -18,7 +17,5 @@ function Degree(props) {
     </div>
   )
 }
-
-Degree.propTypes = {}
 
 export default Degree
