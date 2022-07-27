@@ -9,9 +9,9 @@ const Home = () => {
     <div name='home' className='w-full lg:h-screen bg-[#0a192f]'>
         
         {/* container */}
-        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center lg:h-full'>
+        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center lg:h-full md:pb-5'>
 
-            <div className='pt-20 lg:py-10'>
+            <div className='pt-20 lg:pb-10'>
                 <img src={meImage} alt='me' className='shadow rounded-full w-60 h-auto align-middle border-none' />
             </div>
             

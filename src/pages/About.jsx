@@ -16,7 +16,13 @@ function About() {
                 </div>
                 <div>
                     <p>
-                        I am a DC based full stack developer with a proven passion for learning new technologies bla bla 
+                        I am a DC based full stack developer with over 3 years of professional experience.
+                        I have a passion for learning new programming languages and technologies,
+                        and enjoy doing a little bit of everything when it comes to front-end and back-end programming.
+                    </p>
+                    <p>
+                        Outside of my work as a developer, I have a passion for photography.
+                        I love getting outside, going on a hike or exploring the city and trying to find new ways of looking at the world through my camera.
                     </p>
                 </div>
             </div>
