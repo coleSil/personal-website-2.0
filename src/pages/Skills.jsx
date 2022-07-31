@@ -8,7 +8,7 @@ function Skills() {
 
     var otherSKills = [
         'RESTful APIs', 'Full Stack Development', 'Linux', 'Red Hat Linux', 'Windows 11', 'git',
-        'Agile Development', 'HTML', 'Bootstrap', 'CSS', 'Azure'
+        'Agile Development', 'HTML', 'Bootstrap', 'CSS'
     ];
 
     /**
