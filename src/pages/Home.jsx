@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaGithub, FaLinkedin, FaInstagram, FaEnvelope} from 'react-icons/fa';
+import {FaLinkedin, FaInstagram, FaEnvelope} from 'react-icons/fa';
 import meImage from '../assets/me.jpg';
 import resume from '../assets/Silvernail_Resume.pdf';
 
@@ -28,9 +28,6 @@ const Home = () => {
             <div className='text-gray-300'>
                 <a href='https://www.linkedin.com/in/cole-silvernail/' className='inline-block px-2 hover:text-lime-400'>
                     <FaLinkedin size={50} />
-                </a>
-                <a href='https://github.com/coleSil' className='inline-block px-2 hover:text-lime-400'>
-                    <FaGithub size={50} />
                 </a>
                 <a href='https://www.instagram.com/cole.sliversnail/' className='inline-block px-2 hover:text-lime-400'>
                     <FaInstagram size={50} />
